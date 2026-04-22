@@ -52,17 +52,17 @@
 \title{ \normalsize \textsc{}
 		\\ [2.0cm]
 		\HRule{1.5pt} \\
-		\LARGE \textbf{\uppercase{Relatório do trabalho\\ Loja de carros}
+		\LARGE \textbf{\uppercase{Relatório do trabalho\\ Loja de Carros}
 		\HRule{2.0pt} \\ [0.6cm] \LARGE{Ferramentas da Internet} \vspace*{10\baselineskip}}
 		}
 \date{}
 \author{\textbf{Autores:} \\
-		Tiago Vilas Boas\\
-		Mateus Augusto\\
-        Kaique de Freitas\\
-        Otávio Leone\\
-        Lucas Estevam\\
-		MARIANA - 2026}
+		Tiago 1\\
+		Kaique de Freitas 2\\
+		Otavio Leone 3\\
+        Lucas Estevam 4\\
+        Mateus Augusto 5\\
+        MARIANA - 2026}
 
 \maketitle
 \newpage
@@ -70,11 +70,10 @@
 % ------------------------------------------------------------------------------
 
 \section{Introdução}
-xgfgfgfg
+O presente \textbf{trabalho} apresenta um \textit{Minimundo de um banco de dados} para uma loja de carros onde será possível gerenciar veículos, clientes, funcionários, vendas, fornecedorers, compras, financiamentos, \textit{test-drives}, manutenções e estoque.
 
-\section{Minimuno}
-dfsdffsdf
-
+\section{Minimundo} 
+Uma loja de carros necessita de um sistema de banco de dados para gerenciar informações relacionadas a veículos, clientes, funcionários, vendas, fornecedores, compras, financiamentos, test-drives, estoque e manutenção. A loja oferece uma variedade de veículos e cada tipo é gerenciado por um funcionário. Os funcionários fazem as vendas dos veículos. Os clientes compram os veículos. Caso o cliente compre um veículo, ele pode realizar um financiamento como forma de pagamento. Cada cliente pode realizar um test-drive nos veículos e realizar manutenções em seus carros que possuem. Caso o veículo seja comprado, é preciso renovar o estoque dele. Para isso o funcionário entra em contato com o fornecedor para comprar um novo veículo para o estoque da loja. No sistema, a entidade Pessoa se relaciona com Cliente e Funcionário por meio de uma generalização, onde cada pessoa pode ser especializada como cliente ou funcionário. Um funcionário gerencia vários veículos, enquanto cada veículo é gerenciado por apenas um funcionário. Da mesma forma, um funcionário realiza várias vendas, mas cada venda é realizada por apenas um funcionário. Vários clientes compram carros ao longo do tempo, porém cada venda está associada a apenas um cliente. Cada venda está associada a um único veículo, e cada veículo pode ser vendido apenas uma vez. Nem toda venda possui financiamento, mas cada financiamento está vinculado a uma única venda. Um cliente pode realizar vários test-drives, e um veículo pode ser utilizado em diversos test-drives. No caso das manutenções, um cliente pode realizar várias manutenções em seus veículos, e um veículo pode passar por várias manutenções ao longo do tempo. Um fornecedor pode estar associado a várias compras realizadas pela loja, enquanto cada compra é feita com apenas um fornecedor. Cada compra inclui um ou mais veículos, mas cada veículo está associado a uma única compra. Por fim, cada veículo está associado a um único registro no estoque, e uma compra repõe um ou mais itens no estoque. No projeto proposto, cada Pessoa possui CPF, nome, idade, e-mail e telefone. O Cliente, que é uma especialização de Pessoa, possui um ID de cliente, data de nascimento e histórico de compras. Já o Funcionário, também especialização de Pessoa, possui um ID de funcionário, cargo e salário. Cada Veículo tem um ID de veículo, marca, modelo, ano e preço. O Fornecedor possui um ID de fornecedor, nome, telefone, e-mail e endereço. Cada Compra apresenta um ID de compra, data, valor total, forma de pagamento e status. Cada Venda possui um ID de venda, data, valor total, forma pagamento e status. O Financiamento contém um ID de financiamento, valor financiado, número de parcelas, taxa de juros e status. Cada Test-drive possui um ID de test-drive, data, hora, observações e status. A Manutenção é composta por ID de manutenção, descrição, data, custo e tipo de serviço. Por fim, o Estoque possui um ID de estoque, quantidade, valor, capacidade máxima e status.
 
 
 
